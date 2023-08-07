@@ -1,5 +1,6 @@
 import { Counter } from './components/Counter'
 import { CounterRed } from './components/CounterRed'
+import { Form } from './components/Form'
 import { TimerFather } from './components/TimerFather'
 import { User } from './components/User'
 
@@ -22,6 +23,11 @@ function App() {
       <hr />
 
       <CounterRed />
+
+      <h2 className="mt-5">Custom hooks</h2>
+      <hr />
+
+      <Form />
     </>
   )
 }
