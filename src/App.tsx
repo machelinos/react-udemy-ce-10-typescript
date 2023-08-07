@@ -1,4 +1,5 @@
 import { Counter } from './components/Counter'
+import { CounterRed } from './components/CounterRed'
 import { TimerFather } from './components/TimerFather'
 import { User } from './components/User'
 
@@ -16,6 +17,11 @@ function App() {
       <hr />
 
       <TimerFather />
+
+      <h2 className="mt-5">UseReducer</h2>
+      <hr />
+
+      <CounterRed />
     </>
   )
 }
